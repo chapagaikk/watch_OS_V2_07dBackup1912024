@@ -1,25 +1,25 @@
 # ESP32WatchJuly2024
 
-Update all the Changes made in the codes and Libraries requirement including pin configurations in this file. 
+- Update all the Changes made in the codes and Libraries requirement including pin configurations in this file. 
+- We ll use this as reference when we make connections and run program next time. 
 
-We ll use this as reference when we make connections and run program next time. 
+- Controller: ESP32 Wroom 32D
 
-Controller: ESP32 Wroom 32D
-Note: In order to get the SPI pins of ESP32, use the sketch below and check in the serial monitor.
+- Note: In order to get the SPI pins of ESP32, use the sketch below and check in the serial monitor.
 //Find the default SPI pins for your board
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  Serial.print("MOSI: ");
-  Serial.println(MOSI);
-  Serial.print("MISO: ");
-  Serial.println(MISO);
-  Serial.print("SCK: ");
-  Serial.println(SCK);
-  Serial.print("SS: ");
-  Serial.println(SS);  
-}
-void loop() {}
+- void setup() {
+  - // put your setup code here, to run once:
+  - Serial.begin(115200);
+  - Serial.print("MOSI: ");
+  - Serial.println(MOSI);
+  - Serial.print("MISO: ");
+  - Serial.println(MISO);
+  - Serial.print("SCK: ");
+  - Serial.println(SCK);
+  - Serial.print("SS: ");
+  - Serial.println(SS);  
+- }
+- void loop() {}
 
 Pins: 
 1.	Vcc – Vcc 3.3V
