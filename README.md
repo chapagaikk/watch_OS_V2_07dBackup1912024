@@ -1,5 +1,5 @@
 # ESP32WatchJuly2024
-
+- Update the folder name as "watch_OS_V2_07dBackup1912024"
 - Update all the Changes made in the codes and Libraries requirement including pin configurations in this file. 
 - We ll use this as reference when we make connections and run program next time. 
 
